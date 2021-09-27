@@ -11,6 +11,7 @@ public class SlideshowViewModel extends ViewModel {
     public SlideshowViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is CNN fragment");
+        //Just adding a commit button for testing
     }
 
     public LiveData<String> getText() {
